@@ -1,0 +1,1437 @@
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 27.20.11044.5003]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics
+    Vendor:   ATI
+    VRAM:     2034 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+desktop: 1920x1080 75Hz; virtual: 3286x1080 at -1366,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Non platform assembly: data-02E9C5F8 (this message is harmless)
+Non platform assembly: data-02F07540 (this message is harmless)
+Non platform assembly: data-0E460048 (this message is harmless)
+Non platform assembly: data-02F0FDB8 (this message is harmless)
+Non platform assembly: data-0E495AB0 (this message is harmless)
+Non platform assembly: data-02F187C0 (this message is harmless)
+Platform assembly: C:\Users\Almeidiano\Desktop\playable cubelands\Cubelands_classic_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Almeidiano\Desktop\playable cubelands\Cubelands_classic_Data\Managed\Boo.Lang.dll (this message is harmless)
+Preloader awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Preloader:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Preloader: STARTGAME CALLED
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<StartGame>d__17:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Preloader:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 229.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Install Kong 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Kongregate:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 232.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Calling GetNATStatus, but we havent finished testing yet!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+MultiplayerFunctions:GetNATStatus()
+MultiplayerFunctions:StartServer(String, Int32, Int32, Boolean)
+MainMenu:ShowMyMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 241.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 377.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+GameSettings.customTerrainFolder=
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:LoadCustomTerrainTexture()
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Attempting to read level file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Empty game name given during host registration, aborting
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+
+[C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp line 591] 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp Line: 591)
+
+Masterserver error: RegistrationFailedGameType
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:OnMasterServerEvent(MasterServerEvent)
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Nonsense chunk register 1: 2 -1 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+WorldData:ClientAddChunk(Chunk)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Finished creating world. Load time: 0.9733558 Generate time:0.2203214
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+ServerStarted. First save in 30 seconds, after that every 300
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:ServerStarted()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Spawn at (64.0, 31.0, 64.0) worldsp=(64.0, 31.0, 64.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:SpawnOnNetwork(Vector3, Quaternion, NetworkViewID, String, Boolean, NetworkPlayer)
+GameManager:SpawnLocalPlayer()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Platform assembly: C:\Users\Almeidiano\Desktop\playable cubelands\Cubelands_classic_Data\Managed\System.dll (this message is harmless)
+SaveWorldToDisk
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:SaveWorldToDisk()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Starting SaveWorld..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameManager:SaveWorldToDisk()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Misc/Player.cpp Line: 1466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.Repaint
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.TextEditor.ClampPos () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.DoTextField (Rect position, Int32 id, UnityEngine.GUIContent content, Boolean multiline, Int32 maxLength, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.DoTextField (System.String text, Int32 maxLength, Boolean multiline, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.TextField (System.String text, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.EndWindows (UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUIUtility.EndGUI (Int32 doLayout, Int32 doWindows, UnityEngine.IDList idlist) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentException: GUILayout: Mismatched LayoutGroup.KeyDown
+  at UnityEngine.GUILayoutUtility.BeginLayoutGroup (UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type LayoutType) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUILayout.BeginHorizontal (UnityEngine.GUILayoutOption[] options) [0x00000] in <filename unknown>:0 
+  at GameMenu.ShowServerInfo (Int32 windowID) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI+_Window.Do () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.BeginWindows (UnityEngine.Event e, Int32 skinMode, UnityEngine.IDList idlist, Int32 editorWindowInstanceID) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+SaveWorld (22.14274): levelData.length=58078 Zipped:7876
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld: Saved to file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Saved world to file; Worlds/MyWorld/MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+56.26275 Saved world in 22.16064 seconds
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Quitting game
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<QuitGame>d__55:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameMenu:ShowMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Starting SaveWorld..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld (0.4528351): levelData.length=58103 Zipped:7872
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld: Saved to file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Saved world to file; Worlds/MyWorld/MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+60.27225 Saved world in 0.4590416 seconds
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+UN-RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:UnRegisterServer()
+<OnDisconnectedFromServer>d__52:MoveNext()
+UnityEngine.Network:Disconnect(Int32)
+UnityEngine.Network:Disconnect()
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 252 unused Assets to reduce memory usage. Loaded Objects now: 389.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Install Kong 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Kongregate:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading -11 unused Assets to reduce memory usage. Loaded Objects now: 397.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Calling GetNATStatus, but we havent finished testing yet!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+MultiplayerFunctions:GetNATStatus()
+MultiplayerFunctions:StartServer(String, Int32, Int32, Boolean)
+MainMenu:ShowMyMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 393.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 413.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+GameSettings.customTerrainFolder=
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:LoadCustomTerrainTexture()
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Attempting to read level file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Empty game name given during host registration, aborting
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+
+[C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp line 591] 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp Line: 591)
+
+Masterserver error: RegistrationFailedGameType
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:OnMasterServerEvent(MasterServerEvent)
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Nonsense chunk register 1: 2 -1 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+WorldData:ClientAddChunk(Chunk)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Finished creating world. Load time: 0.6882477 Generate time:0.190712
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+ServerStarted. First save in 30 seconds, after that every 300
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:ServerStarted()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Spawn at (64.0, 31.0, 64.0) worldsp=(64.0, 31.0, 64.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:SpawnOnNetwork(Vector3, Quaternion, NetworkViewID, String, Boolean, NetworkPlayer)
+GameManager:SpawnLocalPlayer()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Quitting game
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<QuitGame>d__55:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameMenu:ShowMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Starting SaveWorld..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld (0.3723907): levelData.length=58103 Zipped:7872
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld: Saved to file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Saved world to file; Worlds/MyWorld/MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+70.85766 Saved world in 0.3800812 seconds
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+UN-RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:UnRegisterServer()
+<OnDisconnectedFromServer>d__52:MoveNext()
+UnityEngine.Network:Disconnect(Int32)
+UnityEngine.Network:Disconnect()
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 391.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Install Kong 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Kongregate:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading -11 unused Assets to reduce memory usage. Loaded Objects now: 397.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
