@@ -83,7 +83,7 @@ public class MainMenu : MenuPage
 		}
 		GUI.DrawTexture(new Rect(0f, 0f, Screen.width, Screen.height), backgroundImage);
 		GUI.skin = skin;
-		GUI.Label(new Rect(10f, 10f, 400f, 25f), "Cubelands Classic - modded build");
+		GUI.Label(new Rect(10f, 10f, 400f, 25f), "Cubelands Classic - modded build 2026");
 		if (GameSettings.gameHadError != string.Empty)
 		{
 			GUILayout.BeginArea(new Rect(100f, 50f, Screen.width - 200, Screen.height - 100));
