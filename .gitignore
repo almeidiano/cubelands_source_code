@@ -1,1 +1,6 @@
 playable_cubelands/worlds
+# build output
+bin/
+source_modded/obj/
+obj/Release/
+*.bak

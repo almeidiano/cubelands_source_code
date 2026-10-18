@@ -9,16 +9,18 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup />
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Remove="source_modded/**" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>..\CubelandsWin\CubelandsWin\Cubelands_classic_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>playable_cubelands\Cubelands_classic_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>..\CubelandsWin\CubelandsWin\Cubelands_classic_Data\Managed\LitJson.dll</HintPath>
+      <HintPath>playable_cubelands\Cubelands_classic_Data\Managed\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\CubelandsWin\CubelandsWin\Cubelands_classic_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>playable_cubelands\Cubelands_classic_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
