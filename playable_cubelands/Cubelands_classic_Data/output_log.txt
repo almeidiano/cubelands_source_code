@@ -1,0 +1,244 @@
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 32.0.16.1088]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+Non platform assembly: data-03140790 (this message is harmless)
+Non platform assembly: data-031AB850 (this message is harmless)
+Non platform assembly: data-10BB0048 (this message is harmless)
+Non platform assembly: data-031B40E0 (this message is harmless)
+Non platform assembly: data-10BE5B38 (this message is harmless)
+Non platform assembly: data-031BCAE8 (this message is harmless)
+Platform assembly: C:\Users\samue\cubelands_source_code\playable cubelands\Cubelands_classic_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\samue\cubelands_source_code\playable cubelands\Cubelands_classic_Data\Managed\Boo.Lang.dll (this message is harmless)
+Preloader awake
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Preloader:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Preloader: STARTGAME CALLED
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<StartGame>d__17:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+Preloader:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 228.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Install Kong 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Kongregate:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 231.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Calling GetNATStatus, but we havent finished testing yet!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+MultiplayerFunctions:GetNATStatus()
+MultiplayerFunctions:StartServer(String, Int32, Int32, Boolean)
+MainMenu:ShowMyMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 240.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 376.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+GameSettings.customTerrainFolder=
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:LoadCustomTerrainTexture()
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Attempting to read level file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Couldn't find save data, generating new world.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+WorldData:Start()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Empty game name given during host registration, aborting
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+
+[C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp line 591] 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Network/MasterServerInterface.cpp Line: 591)
+
+Masterserver error: RegistrationFailedGameType
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:OnMasterServerEvent(MasterServerEvent)
+UnityEngine.MasterServer:RegisterHost(String, String, String)
+MultiplayerFunctions:RegisterServer(String, String)
+GameManager:RegisterServer()
+GameManager:Update()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Nonsense chunk register 1: 2 -1 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+WorldData:ClientAddChunk(Chunk)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Finished creating world. Load time: 0.6647131 Generate time:0.1215239
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<GenerateWorld>d__47:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+ServerStarted. First save in 30 seconds, after that every 300
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:ServerStarted()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Spawn at (64.0, 31.0, 64.0) worldsp=(64.0, 31.0, 64.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameManager:SpawnOnNetwork(Vector3, Quaternion, NetworkViewID, String, Boolean, NetworkPlayer)
+GameManager:SpawnLocalPlayer()
+<Start>d__16:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Quitting game
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<QuitGame>d__55:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+GameMenu:ShowMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Starting SaveWorld..
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld (0.3321447): levelData.length=53042 Zipped:5228
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+SaveWorld: Saved to file: MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+Saved world to file; Worlds/MyWorld/MyWorld.txt
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+WorldData:WriteWorldData(String, String)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+6.046881 Saved world in 0.3413587 seconds
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<SaveWorld>d__75:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+UN-RegisterServer - MS
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+MultiplayerFunctions:UnRegisterServer()
+<OnDisconnectedFromServer>d__52:MoveNext()
+UnityEngine.Network:Disconnect(Int32)
+UnityEngine.Network:Disconnect()
+<QuitGame>d__55:MoveNext()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading 121 unused Assets to reduce memory usage. Loaded Objects now: 384.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Install Kong 
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Kongregate:Awake()
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
+
+Unloading -11 unused Assets to reduce memory usage. Loaded Objects now: 390.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+Calling FetchHostList but we havent loaded MS settings yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+MultiplayerFunctions:FetchHostList()
+MultiplayerMenu:EnableMenu()
+MainMenu:SwitchMainMenu(MenuPage)
+MainMenu:ShowMyMenu(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Event, Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 34)
+
